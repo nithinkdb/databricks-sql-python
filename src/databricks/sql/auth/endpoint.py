@@ -23,7 +23,7 @@ class CloudType(Enum):
     AZURE = "azure"
 
 
-DATABRICKS_AWS_DOMAINS = [".cloud.databricks.com", ".dev.databricks.com"]
+DATABRICKS_AWS_DOMAINS = [".cloud.databricks.com", ".cloud.databricks.us", ".dev.databricks.com"]
 DATABRICKS_AZURE_DOMAINS = [
     ".azuredatabricks.net",
     ".databricks.azure.cn",
